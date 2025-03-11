@@ -1,0 +1,7 @@
+[
+  {
+    "key": "ctrl+k",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasSelection && editorLangId == 'typescriptreact'"
+  }
+] 

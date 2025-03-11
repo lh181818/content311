@@ -1,0 +1,40 @@
+{
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "interface Props {",
+      "\t// props类型定义",
+      "}",
+      "",
+      "const ${1:ComponentName} = ({}: Props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:ComponentName}"
+    ],
+    "description": "React Functional Component with TypeScript"
+  },
+  "Create React Functional Component": {
+    "prefix": "/create react functional component",
+    "body": [
+      "interface Props {",
+      "\t// props类型定义",
+      "}",
+      "",
+      "const ${1:ComponentName} = ({}: Props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:ComponentName}"
+    ],
+    "description": "Create React Functional Component with TypeScript using command"
+  }
+} 
